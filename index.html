@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>Página de tarjeta editable</header>
+    <div class="main-content">
+        <h1>Tarjeta de presentación</h1>
+        <div class="card">
+            <p id="name">Nombre</p>
+            <p id="lastname">Apellido</p>
+        </div>
+        <div class="data">
+            <textarea name="" id="new-name" cols="30" rows="1" style="resize: none;" placeholder="Escribe tu nombre..."></textarea>
+            <textarea name="" id="new-lastname" cols="30" rows="1" style="resize: none;" placeholder="Escribe tu apellido..."></textarea>
+            <button type="button" id="update-button">Actualizar</button>
+            <button type="button" id="reset-button">Reiniciar</button>
+        </div>
+    </div>
+    <footer>&copy;2024 Mi Página de Manipulación del DOM. Todos los derechos reservados</footer>
+</body>
+</html>
